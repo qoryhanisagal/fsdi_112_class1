@@ -1,27 +1,93 @@
+/* This container wraps the entire about section. I want it centered and spacious. */
 .about-container {
     display: flex;
-    justify-content: space-between;
+    justify-content: center;
     align-items: center;
+    min-height: 90vh; /* Increased height to push content closer to vertical center */
     padding: 60px 80px;
+    gap: 80px;
 }
 
+/* This is the text section for the about paragraph. I want it readable and stylish. */
 .about-text {
     max-width: 60%;
     font-family: 'Inter', sans-serif;
     color: #231c16;
     line-height: 1.6;
+    font-size: 18px; /* Made text larger for better readability */
 }
 
+/* Styling the heading inside the text. I want it bold and noticeable. */
 .about-text h2 {
-    font-size: 32px;
+    font-size: 40px;
     font-weight: 700;
     margin-bottom: 20px;
 }
 
+/* This holds the image and icons under it. I'm using column layout. */
+.about-image {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+/* This is my circular developer image with a nice drop shadow. */
 .about-image .image {
     width: 300px;
     height: 300px;
     border-radius: 50%;
     object-fit: cover;
     box-shadow: 0 4px 20px rgba(0, 0, 0, 0.1);
+}
+
+/* This group wraps the call-to-action and social icons. */
+.cta-group {
+    margin-top: 30px;
+}
+
+/* This is the Buy Me a Coffee button. I want it to stand out and feel clickable. */
+.coffee-btn {
+    display: inline-block;
+    padding: 12px 24px;
+    background-color: #FFD940;
+    color: #231c16;
+    font-weight: bold;
+    border: none;
+    border-radius: 20px;
+    text-decoration: none;
+    font-size: 16px;
+    margin-bottom: 20px;
+    transition: background-color 0.3s ease;
+}
+
+.coffee-btn:hover {
+    background-color: #f4c10b;
+}
+
+/* I’m aligning the icons and giving them spacing so they look clean under the image. */
+.social-icons {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 16px;
+    margin-top: 20px;
+}
+
+/* These anchor links wrap each icon. I want them simple but interactive. */
+.social-icons a {
+    color: #231c16;
+    font-size: 20px;
+    text-decoration: none;
+    transition: transform 0.3s ease;
+}
+
+/* This ensures icons scale slightly when hovered over. */
+.social-icons i {
+    font-size: 20px;
+    color: #231c16;
+    transition: transform 0.3s ease;
+}
+
+.social-icons a:hover {
+    transform: scale(1.1);
 }
