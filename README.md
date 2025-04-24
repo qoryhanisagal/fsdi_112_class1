@@ -1,4 +1,4 @@
-# FSDI_112 Learning Journey: Organizo(Tiimo) Login & About Page Project
+# FSDI 112 Learning Journey: Organizo(Tiimo) Login & About Page Project
 
 ## Overview
 
