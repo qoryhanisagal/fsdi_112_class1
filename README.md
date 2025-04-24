@@ -74,6 +74,6 @@ I may move slower than others, but I value **understanding over speed**. This pr
 
 ## 📁 Repository
 
-This project is part of my GitHub repository [Organizo(Tiimo) Login & About Project](hhttps://github.com/qoryhanisagal/fsdi_112_class1)  
+This project is part of my GitHub repository [Organizo(Tiimo) Login & About Project](https://github.com/qoryhanisagal/fsdi_112_class1)  
 
 ---
