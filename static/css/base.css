@@ -1,0 +1,43 @@
+/* === Home Landing Page === */
+
+.landing-container {
+    background-color: #fff8e6;
+    padding: 80px 20px;
+    border-radius: 20px;
+    max-width: 900px;
+    margin: 60px auto;
+    text-align: center;
+    box-shadow: 0 10px 20px rgba(0,0,0,0.1);
+}
+
+.hero-content h1 {
+    font-size: 2.5rem;
+    color: #3E2F2F;
+    margin-bottom: 10px;
+}
+
+.hero-content p {
+    font-size: 1.2rem;
+    color: #5c5c5c;
+    margin-bottom: 30px;
+}
+
+.cta-buttons a {
+    text-decoration: none;
+    font-weight: bold;
+    padding: 12px 24px;
+    margin: 10px;
+    border-radius: 30px;
+    display: inline-block;
+}
+
+.btn-primary {
+    background-color: #FFD940;
+    color: #000;
+}
+
+.btn-secondary {
+    border: 2px solid #3E2F2F;
+    color: #3E2F2F;
+    background-color: #fff;
+}

@@ -1,0 +1,96 @@
+body {
+    margin: 0;
+    background-color: #f7f5f4;
+}
+
+.screen {
+    min-height: 100vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.login-container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 100px;
+}
+
+.image-container {
+    width: 600px;
+    height: 660px;
+    background-color: #ffffff;
+    border-radius: 100px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    overflow: visible;
+    position: relative;
+}
+
+.image-container img {
+    width: 750px;
+    height: 600px;
+    border-radius: 8px;
+    transform: translate(30px); /* move image further right */
+    object-fit: cover;
+}
+
+.login-card {
+    flex: 1;
+    background: white;
+    padding: 40px;
+    border-radius: 24px;
+    width: 438px;
+    box-shadow: 0 10px 30px rgba(0,0,0,0.05);
+}
+.login-wrapper {
+    display: flex;
+    gap: 60px;
+    align-items: center;
+}
+
+.logo-area {
+    text-align: center;
+    margin-bottom: 30px;
+}
+
+.logo-circle {
+    width: 60px;
+    height: 60px;
+    margin: 0 auto;
+    background-color: #FFD940;
+    border-radius: 50%;
+    font-weight: bold;
+    font-size: 24px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.app-title {
+    font-family: 'Corben', serif;
+    font-size: 36px;
+    color: #231c16;
+    margin-top: 10px;
+}
+
+input[type="text"], input[type="password"] {
+    width: 100%;
+    padding: 12px;
+    border-radius: 12px;
+    border: 1px solid #e0e0e0;
+    background-color: #faf8f7;
+}
+
+.btn-primary.full-width {
+    width: 100%;
+    padding: 12px;
+    background-color: #FFD940;
+    border: none;
+    border-radius: 30px;
+    font-weight: bold;
+    font-size: 16px;
+    cursor: pointer;
+    margin-top: 24px; 
+}
